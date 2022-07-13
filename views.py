@@ -24,10 +24,4 @@ def page3():
 def page4():
     return render_template("page4.html")
 
-# @my_view.route('/page5')   GET RID OF LATER!!
-# def page5():
-#     return render_template("page5.html")
 
-# @my_view.route('/admin')
-# def admin():
-#     return render_template("admin.html")

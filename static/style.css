@@ -1,14 +1,26 @@
 body {
-    background-color: rgb(40, 60, 113);
+    background-color: rgb(249, 116, 7) !important;
+
 }
 
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
 
 
-/* .dark-mode {
-    background-color: black;
-    color: white;
+img{
+max-height: 500px ;
+min-height: 500px ;
+max-width: 800px;
+min-width: 500px;
+object-position: center;
 }
 
-.dark-modeb{
-    background-color: gray;
-} */
+.dark {
+    background-color: black !important;
+    color: white !important;
+}
+
